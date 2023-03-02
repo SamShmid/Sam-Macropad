@@ -1,10 +1,10 @@
-# Sam's Smart Mirror
+# Sam's Macropad
  
-My project is a Smart Mirror, a smart mirror is a screen with a transparent yet reflective covering in order to simulate a mirror and still have the screen beneath it shine through in addition to that I added a custom virtual assistant named Alfred to run in the background.
+This project is a DIY macropad, a macropad is a peripheral that resembles a keyboard which is able to replicate keyboard functions by using custom macros assigned to each key of the macropad.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:---:|:---:|:---:|:---:|
-| Samuel S. | SAR High School | Electrical Engineering | Rising Junior |
+| Samuel S. | SAR High School | Electrical Engineering | Senior |
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/4GDx9NB" data-context="false" ><a href="//imgur.com/a/4GDx9NB"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
   
