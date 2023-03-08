@@ -6,26 +6,26 @@ This project is my first custom-designed PCB, a DIY Keyboard Macropad. A macropa
 
 ![Image](img/img1.jpg)
   
-##Version 1
+## Version 1
 
 I had a few design parameters in mind when designing the first version. Firstly, I wanted the board to have USB-C connectivity. Secondly, I wanted it to have hot-swappable key switches(I created a second board that you can solder key switches directly into, and that is not hot-swappable).
 
-##Components
+**Components** 
 
-Kalih Hot-Swappable PCB Socket
-Any MX  Style Mechanical switch
-Sparkfun Qwiic Pro Micro - USB-C (Any Arduino Pro Micro will work. This is just the one I used) - [SparkFun Qwiic Pro Micro - USB-C (ATmega32U4) - DEV-15795 - SparkFun Electronics](https://www.sparkfun.com/products/15795)
-2.54mm male and female headers
+* Kalih Hot-Swappable PCB Socket
+* Any MX  Style Mechanical switch
+* Sparkfun Qwiic Pro Micro - USB-C (Any Arduino Pro Micro will work. This is just the one I used) - [SparkFun Qwiic Pro Micro - USB-C (ATmega32U4) - DEV-15795 - SparkFun Electronics](https://www.sparkfun.com/products/15795)
+* 2.54mm male and female headers
 
-##Hardware
+**Hardware**
 
 After ordering the PCB, it is only a matter of soldering on the Kalih sockets on the back and soldering the Pro Micro to the board. On my project, I actually used a separate set of female headers in order to be able to pull off the Pro Micro if anything went wrong without having to resolder the whole thing.
 
-##Software
+**Software**
 
 Almost all of my issues were software related. The main issue was me accidentally bricking the Pro Micro. This was because I did not realize that you had to add the Sparkfun boards to the Arduino Board Manager Library and set the voltage and frequency o the “Processor” tab in the Tools dropdown menu. I edited the code from a project on Instructables Macropad for Keyboard Shortcuts : 8 Steps (with Pictures) - Instructables, which uses the “OneButton” Arduino library. Finally, after messing with their code and creating my own, I ended up with the V1 of my Macropad.
 
-##Code
+**Code**
 
 
 ``` python 
