@@ -6,7 +6,7 @@ This project is a DIY macropad, a macropad is a peripheral that resembles a keyb
 |:---:|:---:|:---:|:---:|
 | Samuel S. | SAR High School | Electrical Engineering | Senior |
 
-<a href="img/img1.jpg"></a>
+![Image](img/img1.jpg)
   
 # Final Milestone
 My final milestone is the project completely assembled. I cut a piece of a trasnparent mirror and hot glued that onto the mirror as well as hot glueing a cardboard border around it. I ran into a bunch of trouble trying to cut the mirror piece as I realized it wasn't as easy as it seems, but in the end I was able to cover up my mistakes with my cardboard border. 
