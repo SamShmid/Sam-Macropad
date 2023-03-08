@@ -29,7 +29,7 @@ Almost all of my issues were software related. The main issue was me accidentall
 
 
 ``` 
-=#include <Keyboard.h>   // https://github.com/arduino-libraries/Keyboard/blob/master/src/Keyboard.h
+#include <Keyboard.h>   // https://github.com/arduino-libraries/Keyboard/blob/master/src/Keyboard.h
 #include <OneButton.h>    // Library for button input functions, https://github.com/mathertel/OneButton
 
 //setup buttons with OneButton
