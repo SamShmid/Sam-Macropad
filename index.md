@@ -23,7 +23,7 @@ After ordering the PCB, it is only a matter of soldering on the Kalih sockets on
 
 **Software**
 
-Almost all of my issues were software related. The main issue was me accidentally bricking the Pro Micro. This was because I did not realize that you had to add the Sparkfun boards to the Arduino Board Manager Library and set the voltage and frequency o the “Processor” tab in the Tools dropdown menu. I edited the code from a project on Instructables Macropad for Keyboard Shortcuts : 8 Steps (with Pictures) - Instructables, which uses the “OneButton” Arduino library. Finally, after messing with their code and creating my own, I ended up with the V1 of my Macropad.
+Almost all of my issues were software related. The main issue was me accidentally bricking the Pro Micro. This was because I did not realize that you had to add the Sparkfun boards to the Arduino Board Manager Library and set the voltage and frequency o the “Processor” tab in the Tools dropdown menu. I edited the code from a project on Instructables [Macropad for Keyboard Shortcuts : 8 Steps (with Pictures) - Instructables](https://www.instructables.com/Macropad-for-Keyboard-Shortcuts/), which uses the “OneButton” Arduino library. Finally, after messing with their code and creating my own, I ended up with the V1 of my Macropad.
 
 **Code**
 
