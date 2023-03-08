@@ -1,25 +1,32 @@
 # Sam's Macropad
- 
-This project is a DIY macropad, a macropad is a peripheral that resembles a keyboard which is able to replicate keyboard functions by using custom macros assigned to each key of the macropad.
 
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
-|:---:|:---:|:---:|:---:|
-| Samuel S. | SAR High School | Electrical Engineering | Senior |
+##Overview
+
+This project is my first custom-designed PCB, a DIY Keyboard Macropad. A macropad is a peripheral that resembles a regular keyboard, but it can replicate keyboard functions by using custom macros assigned to each key of the macropad.
 
 ![Image](img/img1.jpg)
   
-# Final Milestone
-My final milestone is the project completely assembled. I cut a piece of a trasnparent mirror and hot glued that onto the mirror as well as hot glueing a cardboard border around it. I ran into a bunch of trouble trying to cut the mirror piece as I realized it wasn't as easy as it seems, but in the end I was able to cover up my mistakes with my cardboard border. 
+##Version 1
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o_kXJyYwGho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+I had a few design parameters in mind when designing the first version. Firstly, I wanted the board to have USB-C connectivity. Secondly, I wanted it to have hot-swappable key switches(I created a second board that you can solder key switches directly into, and that is not hot-swappable).
 
-# Second Milestone
-My second milestone was creating a custom virtual assistant named alfred. I created the virtual assistant in python. The program utilized a usb microphone and the speaker in my monitor to be able to take in audio and speak back to it. However, I ran into problems almost every step of the way, mainly the pythonlibrary for microhpones is not compatible with the raspberry pi. After getting that working I also ran into problems with the text to speech because the Raspberry Pi had problems processing the audio. Finally, after hours of debugging and trying out new libraries I was able to get it to work.
+##Components
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GdE4cMmf86I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Kalih Hot-Swappable PCB Socket
+Any MX  Style Mechanical switch
+Sparkfun Qwiic Pro Micro - USB-C (Any Arduino Pro Micro will work. This is just the one I used) - [SparkFun Qwiic Pro Micro - USB-C (ATmega32U4) - DEV-15795 - SparkFun Electronics](https://www.sparkfun.com/products/15795)
+2.54mm male and female headers
 
+##Hardware
 
-The following code is the code I used for my virtual assistant. This code takes a recording from the microphone than transcribes that audio into text in order to be filtered through the various functions, and finally it does text to speech in order to have my virtual assistant to respond to me.
+After ordering the PCB, it is only a matter of soldering on the Kalih sockets on the back and soldering the Pro Micro to the board. On my project, I actually used a separate set of female headers in order to be able to pull off the Pro Micro if anything went wrong without having to resolder the whole thing.
+
+##Software
+
+Almost all of my issues were software related. The main issue was me accidentally bricking the Pro Micro. This was because I did not realize that you had to add the Sparkfun boards to the Arduino Board Manager Library and set the voltage and frequency o the “Processor” tab in the Tools dropdown menu. I edited the code from a project on Instructables Macropad for Keyboard Shortcuts : 8 Steps (with Pictures) - Instructables, which uses the “OneButton” Arduino library. Finally, after messing with their code and creating my own, I ended up with the V1 of my Macropad.
+
+##Code
+
 
 ``` python 
 # Import the libraries
