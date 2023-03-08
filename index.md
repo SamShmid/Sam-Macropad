@@ -1,6 +1,6 @@
 # Sam's Macropad
 
-##Overview
+## Overview
 
 This project is my first custom-designed PCB, a DIY Keyboard Macropad. A macropad is a peripheral that resembles a regular keyboard, but it can replicate keyboard functions by using custom macros assigned to each key of the macropad.
 
