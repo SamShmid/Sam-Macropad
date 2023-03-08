@@ -155,45 +155,6 @@ void button8click() {
   Keyboard.release('h');
 }
 
-/*
-// This function will be called when button 1 is pressed for more than 50ms and less than 300ms.
-void button1click() {
-  Serial.println("Pressing alt+a for Mute/Unmute");
-  Keyboard.press(KEY_LEFT_ALT);
-  delay(20);
-  Keyboard.press('a');
-  delay(10);
-  Keyboard.release('a');
-  delay(20);
-  Keyboard.releaseAll();
-}
-
-
-// This function will be called when button 2 is pressed for more than 50ms and less than 300ms.
-void button2click() {
-  Serial.println("Pressing alt+y for Hand");
-  Keyboard.press(KEY_LEFT_ALT);
-  delay(20);
-  Keyboard.press('y');
-  delay(10);
-  Keyboard.release('y');
-  delay(20);
-  Keyboard.releaseAll();
-}
-
-
-// This function will be called when button 3 is pressed for more than 50ms and less than 300ms.
-void button3click() {
-  Serial.println("Pressing alt+v for Video");
-  Keyboard.press(KEY_LEFT_ALT);
-  delay(20);
-  Keyboard.press('v');
-  delay(10);
-  Keyboard.release('v');
-  delay(20);
-  Keyboard.releaseAll();
-}
-*/
 
 ```
 
